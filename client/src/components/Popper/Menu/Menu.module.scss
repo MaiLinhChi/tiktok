@@ -1,0 +1,52 @@
+.menu-more {
+    width: 223px;
+}
+
+.menu-popper {
+    padding-bottom: 8px;
+
+    .menu-item {
+        margin-left: 0;
+        padding: 10px 16px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        border-radius: 0;
+
+        &.separate {
+            border-top: 1px solid rgba(22, 24, 35, 0.12);
+        }
+
+        &:hover {
+            background: rgba(22, 24, 35, 0.03);
+        }
+    }
+}
+
+.wrapper-item {
+    overflow-y: auto;
+}
+
+// Header
+.header {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    height: 50px;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-back {
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.8rem;
+}

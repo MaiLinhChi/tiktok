@@ -1,0 +1,14 @@
+.wrapper {
+    position: relative;
+    padding: 16px 0;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 8px;
+        width: calc(100% - 16px);
+        height: 1px;
+        background-color: #1618231f;
+    }
+}

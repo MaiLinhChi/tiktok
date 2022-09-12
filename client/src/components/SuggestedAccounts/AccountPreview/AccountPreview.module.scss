@@ -1,0 +1,56 @@
+.wrapper {
+    width: 320px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+
+    .avatar {
+        border-radius: 50%;
+    }
+}
+
+.analytics {
+    display: block;
+    margin-top: 8px;
+}
+
+.user-name {
+    font-family: SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.icon {
+    color: #20d5ec;
+    margin-left: 4px;
+}
+
+.label {
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.value {
+    font-weight: 700;
+    margin-right: 6px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.value ~ .value {
+    margin-left: 20px;
+}
